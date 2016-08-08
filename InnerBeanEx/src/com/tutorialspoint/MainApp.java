@@ -9,6 +9,6 @@ public class MainApp {
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		TextEditor te = (TextEditor)context.getBean("textEditor");
 		te.spellCheck();
-		//Kanchana 
+		//Kanchana Buddhika
 	}
 }
